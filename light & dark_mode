@@ -1,0 +1,48 @@
+.switchbar{position:fixed;top:100px;right:0;width:65px;height:40px;background-color:#fff;z-index:9999;box-sizing:border-box;padding:0;border:1px solid rgba(155,155,155,0.32);border-right:;0;box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)}
+.dark-switch{display:none}
+.dark-bar{position:absolute;overflow:hidden;font-size:11px;line-height:22px;cursor:pointer;width:50px;height:22px;top:8px;right:5px;background:#cccccc;transition:all 0.4s}
+.dark-bar:before{content:&#39;OFF&#39;;position:absolute;top:0;bottom:0;right:20px;width:30px;background:#111111;color:#fff;text-align:center;transition: left 0.3s cubic-bezier(0.175,0.885,0.32,1.275),padding 0.3s ease,margin 0.3s ease}
+.dark-switch:checked+.dark-bar:before{content:&#39;ON&#39;;background-color:#2196F3;color:#fff;text-align:center;right:0}
+/* Dark Mode Settings
+-------------------- */
+.dark-version .body{background: #222 url() repeat scroll top left;background-color: #222;}
+.dark-version .header-header{background:#333;box-shadow: 0 0 5px rgba(0,0,0,.1)}
+.dark-version #top-bar{box-shadow: 0 0 5px rgba(0,0,0,.1)}
+.dark-version #footer-wrapper{box-shadow: 0 0 5px rgba(0,0,0,.1)}
+.dark-version #outer-wrapper{background:#222}
+.dark-version .innerwrapper{background:#333}
+.dark-version .sidebar .widget{background:transparent}
+.dark-version .feat-big .post-title a{color:#fff8e7}
+.dark-version .feat-big .post-title a:hover{color:#39b5e4}
+.dark-version .feat-list .post-title a{color:#fff8e7}
+.dark-version .feat-list .post-title a:hover{color:#39b5e4}
+.dark-version .item-post h1.post-title{color:#fff8e7}
+.dark-version .post-labels span{color:#fff8e7}
+.dark-version .item-post .post-body{color:#fff8e7}
+.dark-version .comments &gt; h3{color:#fff8e7}
+.dark-version #comments{background:#333}
+.dark-version .comments .comment .comment-actions a{background:#fff}
+.dark-version .comment-block {border-bottom: 1px solid #000000}
+.dark-version .comments .comments-content .comment-header a{color:#acd435}
+.dark-version .comments .comments-content .comment-content{color:#ffffff}
+.dark-version .comments .comment .comment-actions a:hover{background:#3BB7D9}
+.dark-version .related-posts .post-title a{color:#fff8e7}
+.dark-version .related-posts .post-title a:hover{color:#39b5e4}
+.dark-version .grid-small .post-title a{color:#fff8e7}
+.dark-version .grid-small .post-title a:hover{color:#39b5e4}
+.dark-version .grid-big .post-title a{color:#fff8e7}
+.dark-version .grid-big .post-title a:hover{color:#39b5e4}
+.dark-version .feat-col .post-title a{color:#fff8e7}
+.dark-version .feat-col .post-title a:hover{color:#39b5e4}
+.dark-version .index-post .post-info &gt; h2 &gt; a{color:#fff8e7}
+.dark-version .index-post .post-info &gt; h2 &gt; a:hover{color:#39b5e4}
+.dark-version .PopularPosts .post-title a{color:#fff8e7}
+.dark-version .PopularPosts .post-title a:hover{color:#39b5e4}
+.dark-version .custom-widget .post-title a{color:#fff8e7}
+.dark-version .custom-widget .post-title a:hover{color:#39b5e4}
+.dark-version .list-label li{border-top: 1px dotted #333}
+.dark-version .list-label li a{color:#fff8e7}
+.dark-version .list-label li a:hover{color:#39b5e4}
+.dark-version .list-label li a:before{color:#fff8e7}
+.dark-version .FollowByEmail .widget-content &gt; h3{color:#fff8e7}
+.dark-version .switchbar{background-color:#333;box-shadow: 0 3px 6px rgba(166, 166, 166, 0.1), 0 3px 6px rgba(166, 166, 166, 0.4)}
